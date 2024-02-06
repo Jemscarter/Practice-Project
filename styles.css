@@ -2,76 +2,82 @@
 
 *
 {
-    margin:0;
     padding:0;
+    margin:0
 }
 
 body
 {
-    font:Arial,sans-serif;
-    font-size:15px
+    font-size:15px;
+    font-family:Arial,sans-serif;
+}
+
+.wrapper
+{
+    width:940px;
+    margin:0 auto;
+    padding:0 10px;  /* --> QUAND TU FAIT TON CONTAINER N'OUBLIE PAS LE PADDING <-- */
 }
 
 h1
 {
-    font-family: 'Crete Round',serif;
     font-size:45px;
+    font-family:'Crete Round';
     color:#444;
 }
 
-ul
-{
-    list-style: none;
-}
-a
-{
-    text-decoration: none;
-    color: #444;
-}
-.wrapper
-{
-    width:940px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-
-.orange 
+.orange
 {
     color:orange;
 }
 
-/*HEADER*/
+a
+{
+    text-decoration:none;
+}
+ul
+{
+    list-style:none
+}
 
-body header div
+h2
+{
+
+}
+
+/* HEADER */
+header
 {
     height:120px;
-    background-color:beige;
 }
-
-header h1 
+header h1
 {
+    margin-top:32px;
     float:left;
-    margin-top:32px
 }
-
-header nav 
+header nav
 {
     float:right;
     margin-top:50px
+
 }
 
-
-header nav ul li 
+header ul li
 {
-    display:inline-block;
-    margin-right: 10px;
     float:left;
-
+    margin-right:20px;
 }
 
-header nav ul li a
+header ul li a 
 {
+    color:#444;
     text-transform:uppercase;
-    font-weight: bold;
+    font-weight:bold;
 }
 
+/*MAIN-IMAGE*/
+
+#main-image
+{
+    background:
+}
