@@ -90,7 +90,7 @@ header ul li a
     font-weight:normal;
     text-transform:uppercase;
     text-align:center;
-    max-width:640px; /*Je lui attribue une largeur max, l'equivalent de br en css*/
+    max-width:640px; /*Je lui attribue une largeur max, l'equivalent de br en html*/
     margin:0 auto;
     padding:150px 0 40px;
     margin-bottom:20px
@@ -108,7 +108,47 @@ header ul li a
     margin:0 auto;
     line-height:50px;
     border-radius:4px
+}
 
+/* STEPS */
+
+#steps .wrapper
+{
+    background-color: #ff7a00;
+}
+#steps ul
+{
+    padding-top: 30px;
+    height:200px;
+    background-color:red;
+    display:block;
+    margin:0 auto;
+    width:900px;
+}
+#steps ul li
+{
+    display:block;
+    width:300px;
+    margin:0 auto;
+    float:left;
+    padding-top:120px;
+    text-align:center;
 
 }
 
+#step-1
+{
+    background: url(html-css-images/steps-icon-1.png) no-repeat top
+}
+
+#step-2
+{
+    background: url(html-css-images/steps-icon-2.png) no-repeat top
+
+}
+
+#step-3
+{
+    background: url(html-css-images/steps-icon-3.png) no-repeat top
+
+}
