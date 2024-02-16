@@ -14,7 +14,6 @@ a
 {
     text-decoration:none;
     color:#444;
-
 }
 
 .wrapper 
@@ -46,6 +45,18 @@ h2
 {
     color:#444;
     font-size:55px;
+}
+
+h4
+{
+    font-size:24px;
+    color:#444;
+}
+
+p
+{
+    line-height:20px;
+    color:#777;
 }
 
 /* HEADER */
@@ -110,45 +121,55 @@ header ul li a
     border-radius:4px
 }
 
+.button-1:hover
+{
+    background:#02d8dd;
+    border:0.5px orange solid;
+    border-radius: 5px;
+}
+
 /* STEPS */
 
-#steps .wrapper
-{
-    background-color: #ff7a00;
-}
+
 #steps ul
 {
-    padding-top: 30px;
-    height:200px;
-    background-color:red;
-    display:block;
-    margin:0 auto;
-    width:900px;
+    margin:80px 0;
 }
+
 #steps ul li
 {
-    display:block;
-    width:300px;
-    margin:0 auto;
     float:left;
-    padding-top:120px;
+    width:300px;
+    padding-top:140px;
     text-align:center;
+    margin-left:12px;    
+    /* margin-bottom:20px; */
+}
+
+#steps h4 
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p
+{
+    margin-bottom:20px;
+    /* margin-bottom:20px; */
 
 }
 
 #step-1
 {
-    background: url(html-css-images/steps-icon-1.png) no-repeat top
+    background: url(html-css-images/steps-icon-1.png) no-repeat top;
 }
 
 #step-2
 {
     background: url(html-css-images/steps-icon-2.png) no-repeat top
-
 }
 
 #step-3
 {
-    background: url(html-css-images/steps-icon-3.png) no-repeat top
-
+    background: url(html-css-images/steps-icon-3.png) no-repeat top;
 }
